@@ -1,8 +1,9 @@
 import { Component, signal } from '@angular/core';
 import { RouterOutlet } from '@angular/router';
-
+import { Nev } from './nev/nev';
+import { Footer } from './page/footer/footer';
 @Component({
-  imports: [RouterOutlet],
+  imports: [  Footer , Nev ],
   selector: 'app-root',
   styleUrl: './app.css',
   templateUrl: './app.html',
